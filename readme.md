@@ -1,3 +1,4 @@
+
 # 🚦 MobilityVision  
 
 MobilityVision is an **AI-powered real-time people and vehicle detection system** built using **YOLOv8**. It enables the recognition, tracking, and counting of people and vehicles through uploaded images or live webcam streams, making it highly useful for **urban surveillance, mobility management, and smart city applications**.  
@@ -68,16 +69,18 @@ This project is aligned with the vision of **smarter, safer, and more efficient 
 
 ## 📷 Screenshots &  Demo 
 
-[![Watch the demo](demo.gif)](detection.mp4)
 
  <img width="1897" height="846" alt="image" src="https://github.com/user-attachments/assets/b12e49a5-6c94-4d8d-a50c-c582d49c3e04" />
 
+
 - Example image detections
- 
+
+  
 <img width="1887" height="764" alt="image" src="https://github.com/user-attachments/assets/2415c7c6-bf45-4936-8dae-b22a9c9eb3e2" />
 
   
 - Live webcam streaming demo
+
   
 <img width="1873" height="765" alt="image" src="https://github.com/user-attachments/assets/4fb2f296-9858-48f8-a6ae-39afc65ed34a" />
 
