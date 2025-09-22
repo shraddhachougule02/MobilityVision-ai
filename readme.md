@@ -29,7 +29,8 @@ MobilityVision is an **AI-powered real-time people and vehicle detection system*
 
 ## 🎯 Use Cases
 - **Smart Cities**: Monitor traffic and pedestrian density in real time.  
-- **Traffic Management**: Provide insights on road congestion and mobility patterns.  
+- **Traffic Management**: Provide insights on road congestion and mobility patterns.
+- **Smart Parking**: Assistance in parking for smart parking management.
 - **Event Security**: Count and track crowds to prevent over-crowding.  
 - **Urban Planning**: Gather data for policy makers on vehicle-to-people ratios.  
 - **Surveillance**: Assist law enforcement with intelligent monitoring of public spaces.  
@@ -56,55 +57,6 @@ This project is aligned with the vision of **smarter, safer, and more efficient 
 
 ---
 
-## 🚀 Installation & Setup
-
-### 1. Clone the Repository
-```
-git clone https://github.com/your-username/MobilityVision.git
-cd MobilityVision
-```
-
-### 2. Create Virtual Environment
-```
-python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
-```
-
-### 3. Install Dependencies
-```
-pip install -r requirements.txt
-```
-
-*(Dependencies include ultralytics, opencv-python, streamlit, numpy, torch, etc.)*
-
-### 4. Add Trained Models
-Place your trained models in the project directory:
-- `best2.pt` (people detection model)  
-- `best.pt` (vehicle detection model)  
-
----
-
-## ▶️ Usage Instructions
-
-### 1. Run Streamlit Application
-```
-streamlit run app.py
-```
-- Open browser at [**http://localhost:8501**](http://localhost:8501)  
-- Choose between **Upload Image** or **Use Webcam** modes from the sidebar  
-
----
-
-### 2. Run Direct Webcam Detection (Optional, without Streamlit UI)
-```
-python webcam_tracking.py
-```
-
-- Opens real-time tracking window.
-- Press **q** to exit.  
-
----
 
 ## 📊 Results and Highlights
 - Achieved **real-time performance** (>20 FPS) for webcam streams.  
@@ -114,28 +66,29 @@ python webcam_tracking.py
 
 ---
 
-## 📷 Screenshots & 🎥 Demo Videos
-*(To be uploaded)*  
-- Example image detections  
-- Live webcam streaming demo  
-- Dashboard with real-time mobility counts  
+## 📷 Screenshots &  Demo 
 
----
+[![Watch the demo](demo.gif)](detection.mp4)
 
-## 📌 Future Improvements
-- Integration with **cloud database** for storing traffic analytics.  
-- Deployment with **Flask/FastAPI APIs** for scalable backend.  
-- Adding detection for **more mobility types** (bicycles, buses, trucks).  
-- Real-time alerts and notifications for crowd/traffic anomalies.  
+ <img width="1897" height="846" alt="image" src="https://github.com/user-attachments/assets/b12e49a5-6c94-4d8d-a50c-c582d49c3e04" />
+
+- Example image detections
+ 
+<img width="1887" height="764" alt="image" src="https://github.com/user-attachments/assets/2415c7c6-bf45-4936-8dae-b22a9c9eb3e2" />
+
+  
+- Live webcam streaming demo
+  
+<img width="1873" height="765" alt="image" src="https://github.com/user-attachments/assets/4fb2f296-9858-48f8-a6ae-39afc65ed34a" />
 
 ---
 
 ## 🧑‍💻 Author
-**Developed by:** [Your Name]  
+**Developed by:** Shraddha Sanjay Chougule 
 - Data Science & AI Enthusiast  
 - Focused on **Computer Vision, NLP, and Smart City AI Applications**  
-- Connect with me on [LinkedIn](https://www.linkedin.com/) / [GitHub](https://github.com/)  
-
+- Connect with me on [LinkedIn][(https://www.linkedin.com/)](https://www.linkedin.com/in/cshraddha) / [GitHub][(https://github.com/)  
+](https://github.com/shraddhachougule02)
 ---
 
 ## 🏷️ Project Identity
@@ -144,6 +97,3 @@ python webcam_tracking.py
 - **Category**: Real-time Object Tracking & Counting  
 
 ---
-```
-
-Would you like me to also create a **`requirements.txt` file** for you with all the necessary dependencies so that anyone can install and run your project without missing packages?
